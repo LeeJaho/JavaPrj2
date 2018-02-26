@@ -12,12 +12,12 @@ public class NewlecConsoleListener implements ConsoleListener {
 		
 		NewlecExam newlecExam = (NewlecExam)exam;
 		
-		System.out.printf("                ÄÄÇ»ÅÍ : %d \n\n", newlecExam.getCom());		
+		System.out.printf("                ï¿½ï¿½Ç»ï¿½ï¿½ : %d \n\n", newlecExam.getCom());		
 
-		System.out.printf("                ÃÑÁ¡ : %d \n", newlecExam.total());
-		System.out.printf("                Æò±Õ : %.2f \n", newlecExam.avg());
+		System.out.printf("                ï¿½ï¿½ï¿½ï¿½ : %d \n", newlecExam.total());
+		System.out.printf("                ï¿½ï¿½ï¿½ : %.2f \n", newlecExam.avg());
 		System.out.println();
-		System.out.println(" ¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡¦¡");
+		System.out.println(" ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½");
 	}
 	
 	
@@ -28,11 +28,11 @@ public class NewlecConsoleListener implements ConsoleListener {
 		NewlecExam newlecExam = (NewlecExam)exam;
 		int com = 0;
 		do {
-			System.out.printf("            %d¹øÂ° ÄÄÇ»ÅÍ > ",0+1);
+			System.out.printf("            %dï¿½ï¿½Â° ï¿½ï¿½Ç»ï¿½ï¿½ > ",0+1);
 			com = a.nextInt();
 			newlecExam.setCom(com);
 			if(com < 0 || com > 100)
-				System.out.println("\n   ¼ºÀûÀÇ ¹üÀ§(0~100)¸¦ ¹þ¾î³µ½À´Ï´Ù.");
+				System.out.println("\n   ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½(0~100)ï¿½ï¿½ ï¿½ï¿½ï¿½î³µï¿½ï¿½ï¿½Ï´ï¿½.");
 		}
 		while(com < 0 || com > 100);
 		
